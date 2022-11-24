@@ -1,10 +1,10 @@
 const superbowlWin = collection => {
-    for (const oneRecord of collection) {
-        if (oneRecord.result==='W') {
-            return oneRecord.year
+    for (const item of collection) {
+        if (item.result==='W') {
+            return item.year
         }    
     }
 }
 
 
-array.prototype.find(superbowlWin(record))
+record.find(superbowlWin)
