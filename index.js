@@ -1,4 +1,4 @@
-function superbowlWin(collection) {
+const superbowlWin = collection => {
     for (const oneRecord of collection) {
         if (oneRecord.result==='W') {
             return oneRecord.year
